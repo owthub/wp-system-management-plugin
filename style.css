@@ -1,0 +1,122 @@
+/* Common Styles */
+
+.wp9-sms body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.wp9-sms .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Add Student Page Styles */
+
+.wp9-sms .wp9-add-student .card {
+    background: #fff;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wp9-sms .wp9-add-student .card h2 {
+    margin-bottom: 20px;
+}
+
+.wp9-sms .wp9-add-student form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wp9-sms .wp9-add-student input,
+.wp9-sms .wp9-add-student select {
+    padding: 5px 0px 6px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.wp9-sms .wp9-add-student button {
+    padding: 10px 20px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+.wp9-sms .wp9-add-student button:hover {
+    background: #005f8d;
+}
+
+
+/* List Student Page Styles */
+
+.wp9-sms .wp9-list-student table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.wp9-sms .wp9-list-student th,
+.wp9-sms .wp9-list-student td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.wp9-sms .wp9-list-student th {
+    background: #0073aa;
+    color: #fff;
+}
+
+.wp9-sms .wp9-list-student .action-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.wp9-sms .wp9-list-student .edit-button {
+    background: #f0ad4e;
+    color: #fff;
+}
+
+.wp9-sms .wp9-list-student .delete-button {
+    background: #d9534f;
+    color: #fff;
+}
+
+.wp9-sms .wp9-list-student .edit-button:hover {
+    background: #ec971f;
+}
+
+.wp9-sms .wp9-list-student .delete-button:hover {
+    background: #c9302c;
+}
+
+
+/* Alert Messages */
+
+.wp9-sms .alert {
+    padding: 8px;
+    margin: 20px 0;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.wp9-sms .alert-success {
+    background-color: #5cb85c;
+}
+
+.wp9-sms .alert-error {
+    background-color: #d9534f;
+}
